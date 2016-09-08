@@ -1,11 +1,11 @@
 //
 // Created by Rui Chen on 16/7/20.
-// Copyright (c) 2016 fenbi. All rights reserved.
+// Copyright (c) 2016 Chery. All rights reserved.
 //
 
-#import "TTLiveBallotNumberView.h"
+#import "NumberView.h"
 
-@interface TTLiveBallotNumberView ()
+@interface NumberView ()
 
 @property (nonatomic, strong) NSMutableArray<UIView *> *backViews;
 @property (nonatomic, strong) NSMutableArray<CALayer *> *scrollLayers;
@@ -13,7 +13,7 @@
 
 @end
 
-@implementation TTLiveBallotNumberView {
+@implementation NumberView {
     UIView* _xView;
 }
 
